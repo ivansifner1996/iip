@@ -1,0 +1,167 @@
+.login {
+  background-image: url("./wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 110vw;
+  height: 100%;
+  color: white;
+  filter: brightness(70%);
+}
+
+.login__page {
+  box-shadow: 15px 15px 15px black, 5px 5px 5px black;
+  width: 400px;
+  height: 550px;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 77px;
+  height: 60px;
+  overflow: hidden;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.login__logo {
+  width: 100%;
+  height: 100%;
+}
+
+.login__head1 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 13px;
+  margin-bottom: 9px;
+}
+
+.login__page > form {
+  width: 100%;
+  margin-top: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__page > form {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.login__input {
+  margin-bottom: 15px;
+  width: 250px;
+  height: 30px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  border-radius: 18px;
+  text-align: center;
+}
+
+.login__button {
+  background: linear-gradient(to right, rgb(241, 241, 241), rgb(252, 125, 146));
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  width: 180px;
+  margin-top: 10px;
+  /* margin-bottom: 0px; */
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.login__button:hover {
+  background: linear-gradient(to left, rgb(241, 241, 241), rgb(240, 122, 141));
+}
+
+.login__head2 {
+  /* margin-top: 2px; */
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(216, 214, 214);
+}
+
+.login__head3 {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(216, 214, 214);
+}
+
+.underlineHead3 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .login {
+    background-image: url(./wallpaper.jpg);
+  }
+
+  .login__page {
+    box-shadow: 15px 15px 15px rgb(59, 59, 59), 5px 5px 5px rgb(54, 54, 54);
+    width: 240px;
+    height: 480px;
+    margin-top: 0;
+    margin-top: 5px;
+  }
+
+  .login__logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .login__head1 {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+  }
+
+  .login__email,
+  .login__password {
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .login__input {
+    margin-bottom: 11px;
+    width: 220px;
+    height: 25px;
+    font-size: 13px;
+    border-radius: 14px;
+  }
+
+  .login__button {
+    font-size: 13px;
+    width: 150px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+
+  .login__head2 {
+    width: 85%;
+    font-size: 11px;
+  }
+
+  .login__head3 {
+    width: 85%;
+    font-size: 11px;
+    margin-top: 0px;
+  }
+}

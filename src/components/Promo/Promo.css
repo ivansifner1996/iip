@@ -1,0 +1,33 @@
+.coupon {
+  border: 5px dotted #bbb;
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: #f1f1f1;
+}
+
+.promo {
+  background: #ccc;
+  padding: 3px;
+}
+
+.expire {
+  color: red;
+}
+
+.flexItemsResponse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  height: 1000px;
+  background-image: url("https://media.istockphoto.com/vectors/vector-ecommerce-pattern-with-word-ecommerce-background-vector-id960853444");
+}
